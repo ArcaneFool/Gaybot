@@ -48,7 +48,7 @@ async def avatar(ctx,member : discord.Member = None):
 
 @client.command(pass_context=True)
 async def summoner(ctx,region,*,nam):
-    cass.set_riot_api_key("RGAPI-aa079033-b2ac-4c51-8942-2930c3ccea8e")  # This overrides the value set in your configuration/settings.
+    cass.set_riot_api_key("RGAPI-ac-4c51-8942-2930c3ccea8e")  # This overrides the value set in your configuration/settings.
     try:
         cass.set_default_region(region)
         summoner = cass.get_summoner(name=str(nam))
