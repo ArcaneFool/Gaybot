@@ -8,7 +8,6 @@ import cassiopeia as cass
 import requests
 
 botprefix = ('<','£' , '=' , '"')
-TOKEN="NDIwODgyNDc2NzQ4MjQyOTQ0.DZFyFw.81RzMdHOt3XBCLLa5MLZ1n2WTV0"
 client = Bot(command_prefix=botprefix)
 
 @client.command(name='8ball',
